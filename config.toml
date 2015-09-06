@@ -41,7 +41,6 @@ title = "xiehespa"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About"
-		bio = "708負離子能量鼎是台灣自然療法醫師 陳鴻烈發明的已歷經十五年的臨床，並做了百餘項檢驗報告其中包括白老鼠及人体實驗。對慢性病的改善效果非凡 在鼎內能放射出與心臟波長一樣8至14微米的遠紅外線產生共振作用引動心跳每分120次以上心跳有如激烈蓮動，將体內血管毒素排出並訓練心肺功能 又能放射出負離子能量消除自由基，將氧化的正電給與負離子負電位促使還原，並能釋出鹼離子綜合体內酸離子為弱鹼性体質，製造体內良好環境促使細胞修護達到身体自癒力恢復健康"
 
 	
 	# Contact secion
@@ -57,3 +56,4 @@ title = "xiehespa"
 
 	[params.footer]
 		copyright = "xiehespa.com 2015."
+
