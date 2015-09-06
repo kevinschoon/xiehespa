@@ -1,0 +1,13 @@
+{{ "<!-- Contact section -->" | safeHTML }}
+<section class="alt-section section-contact">
+    <h3 id="contact">{{ with .Site.Params.contact.title }}{{ . }}{{ end }}</h3>
+    <div class="social-links">
+        {{ range .Site.Params.contact.social }}
+        <a href="{{ .link }}" class="icon-{{ .icon }}"></a>
+        {{ end }}
+    </div>
+    <hr class="bar">
+    <a class="biglink" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+	<center> <h4>Tel: 03-384-2860 </h4> </center>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0955029688466!2d121.20237399999996!3d25.064752000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3468209c5faa0f43%3A0x5a794c2efe3a2769!2z5Y2U5ZKM5rqr5rOJ6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1sen!2stw!4v1441463239986" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
