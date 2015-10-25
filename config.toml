@@ -1,6 +1,7 @@
 baseurl = "http://xiehespa.com/"
 languageCode = "en-us"
 title = "xiehespa"
+theme = "artists"
 
 [params]
 
